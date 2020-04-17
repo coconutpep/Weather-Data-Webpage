@@ -3,6 +3,10 @@ figure {
     height:auto;
 }
 
+figure > a {
+    color: rgb(39, 51, 102);
+}
+
 @media (max-width:576px) {
     figure {
         border-bottom: 1px solid rgba(0,0,0,.1);
