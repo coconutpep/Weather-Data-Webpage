@@ -1,4 +1,12 @@
-img {
+figure {
     width:49%;
     height:auto;
+}
+
+@media (max-width:576px) {
+    figure {
+        border-bottom: 1px solid rgba(0,0,0,.1);
+        width: 100%;
+        height:auto;
+    }
 }
